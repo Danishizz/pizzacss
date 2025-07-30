@@ -1,0 +1,145 @@
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1,6;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+.container  {
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    background-color: bisque;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    font-style: italic;
+    margin-top: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10 px;
+}
+nav a:hover {
+    text-decoration: overline;
+    color: blueviolet;
+}
+/* Promo */
+section {
+    padding: 20px;
+}
+section h1 {
+    color: azure;
+} 
+
+.Promo {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 7px;
+    border: 7px solid #ccc;
+    border-radius: 7px;
+}
+
+.pizza {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 7px;
+    border: 8px solid #ccc;
+    border-radius: 10px;
+}
+
+li {
+    list-style: inside;
+}
+/* Menu Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+table, th td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+thead {
+    background-color: cadetblue;
+}
+/* Form pemesanan */
+form {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0,0.1);
+}
+form table {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+form button {
+  background-color: #ff4d00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e63900;
+}
+
+/* Contact */
+#contact p {
+    border: 2px solid #ff4d00;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: max-content;
+}
+
+/* Footer */
+footer {
+    background-color: #ff4d00;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
